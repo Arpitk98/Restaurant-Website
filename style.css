@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{ 
+    box-shadow:  5px 5px 5px  rgba(1,1,1,0.05);
+    position: sticky; 
+    top: 0px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+.navigation{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.icon{
+    font-size: 32px; 
+}
+
+
+ /* hero section */
+.container{
+    max-width: 1200px;
+    margin-bottom: 25px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    
+}
+
+.tag{
+     background: #149F39;
+     color: white;
+     padding: 5px 15px; 
+     margin-bottom: 10px; 
+}
+ 
+.heading{
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+
+.button{
+    margin-top: 12px  ;
+    width: 150px;
+    background: #FFC066;
+     padding: 12px;
+     color: white;
+     text-align: center;
+
+}
+
+.next{
+    box-shadow:  5px 5px 5px  rgba(1,1,1,0.05);
+   
+}
+.coupon{
+ display: flex;
+  justify-content: center;
+  padding-bottom: 34px;
+   }
+
+.first img{
+    float: left;
+}
+
+.menu{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.menu span{
+    background: #149F39;
+   color: white;
+   padding: 3px 20px;
+}
+
+.sec{
+     letter-spacing: 1px;
+    padding-top: 15px;
+    font-weight: bold; 
+}
+
+
+.photos{
+    margin-top: 45px;
+  
+}
+
+.photo{ 
+    display: grid;
+     gap: 4px; 
+     justify-content:  center;
+     align-content:center;
+
+     grid-template-areas:  
+     "I1 I1 I2 I3" 
+     "I1 I1 I2 I7"
+     "I4 I5 I6 I7";  
+
+}
+
+.one{
+    grid-area: I1; 
+}
+.two{
+    grid-area: I2; 
+}
+.three{
+    grid-area: I3; 
+}
+
+.four{
+    grid-area: I4; 
+}
+.five{
+    grid-area: I5; 
+}
+.six{
+    grid-area: I6; 
+}
+.seven{
+    grid-area: I7;
+}
+
+
+.last{
+    margin-top: 100px;
+    background: #FFF0DB; 
+}
+.footer{
+    display: flex;
+    justify-content: center; 
+    gap: 32px;
+    padding: 40px;
+}
+
